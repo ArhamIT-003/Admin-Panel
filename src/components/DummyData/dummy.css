@@ -1,0 +1,24 @@
+.userlist-button-edit {
+  padding: 5px 10px;
+  border: none;
+  background-color: #3bb077;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.userlist-button-delete {
+  color: #ff2c2c;
+  cursor: pointer;
+}
+.userlist-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+.userlist-button {
+  background-color: transparent;
+  border: none;
+}

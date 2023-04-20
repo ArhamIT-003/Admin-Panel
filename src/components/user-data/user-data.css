@@ -1,0 +1,62 @@
+.user-container {
+  display: flex;
+  margin-top: 20px;
+}
+.user-show {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.user-update {
+  flex: 2;
+  padding: 10px;
+  margin-left: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.user-show-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.show-up {
+  display: flex;
+}
+.user-up-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.user-up-info-name {
+  font: 16px;
+  font-weight: 600;
+}
+.user-up-info-title {
+  font: 16px;
+  font-weight: 300;
+  padding-top: 5px;
+}
+.show-down-title {
+  font: 16px;
+  color: rgb(180, 180, 180);
+  margin: 20px 0px;
+}
+.show-down-account-details {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+}
+.user-info-items {
+  margin-left: 10px;
+  font-size: 15px;
+}
+.icons-user {
+  font: 10px !important;
+}
+
+.user-update-title {
+  font-size: 24px;
+  font-weight: 600;
+}

@@ -1,0 +1,59 @@
+.newuser {
+  flex: 4;
+  padding: 0px 20px;
+}
+
+.newuser-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newuser-form-items {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.newuser-form-items > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.newuser-form-items > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid rgb(151, 150, 150);
+  border-radius: 10px;
+}
+
+.newuser-gender-container > input {
+  margin-top: 10px;
+}
+
+.newuser-gender-container > label {
+  font-size: 14px;
+  margin: 10px;
+  color: rgb(151, 150, 150);
+}
+
+.newuser-select {
+  height: 40px;
+  border-radius: 10px;
+}
+
+.newuser-btn {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  width: 30%;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+}

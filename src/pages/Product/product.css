@@ -1,0 +1,142 @@
+.products {
+  flex: 4;
+  padding: 20px;
+}
+
+.products-top {
+  display: flex;
+}
+
+.products-top-left,
+.products-top-right {
+  flex: 1;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin: 20px;
+  padding: 20px;
+}
+
+.products-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.products-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.product-btn {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: teal;
+}
+
+/* 
+Product top */
+
+.products-info-img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.products-info {
+  display: flex;
+  align-items: center;
+}
+
+.products-info-name {
+  font-weight: 600;
+}
+
+.products-down {
+  margin-top: 20px;
+}
+.products-info-items {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-info-key {
+  font-weight: 600;
+}
+
+.products-info-value {
+  font-weight: 300;
+}
+/* 
+Product bottom */
+
+.products-bottom {
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.product-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-form-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-form-items > label {
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.product-form-items > input {
+  margin-bottom: 20px;
+  color: grey;
+  width: 150px;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+
+.product-form-items > select {
+  margin-bottom: 20px;
+  color: grey;
+  width: 100px;
+  padding: 5px;
+}
+
+.products-bottom-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.product-bottom-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-update-icon {
+  cursor: pointer;
+}
+
+.product-bottom-btn {
+  padding: 5px;
+  border: none;
+  color: white;
+  background-color: darkblue;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
